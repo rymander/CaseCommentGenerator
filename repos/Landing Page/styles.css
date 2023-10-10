@@ -1,0 +1,87 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px 10% 20px 10%;
+}
+
+
+
+.top {
+    display: flex;
+    background-color: #1F2937;
+    flex: 1;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+}
+
+.nav h3 {
+    flex: 1;
+}
+
+nav a {
+    color: whitesmoke;
+    size: .25em;
+}
+
+.top div {
+    padding: 6%;
+    flex: 1;
+}
+
+button {
+    background-color: cornflowerblue;
+    border-radius: 8px;
+}
+
+.placeholder {
+    background-color: grey;
+    text-align: center;
+}
+
+.mid {
+    background-color: white;
+    color: black;
+    text-align: center;
+    flex: 1;
+    display: flex;
+}
+
+.mid h3 {
+    font-weight: bolder;
+    display: block;
+    justify-content: center;
+    flex: 1;
+}
+
+.bot {
+    background-color: #E5E7EB;
+    color: black;
+    flex: 1;
+}
+
+.bot sub {
+    display: block;
+    text-align: right;
+    font-weight: bold;
+}
+
+footer {
+    color: #E5E7EB;
+    background-color: #1F2937;
+    text-align: center;
+}
+
+.mid .box {
+    border: 2px solid #3882F8;
+    background: white;
+    flex: auto;
+    height: 40px;
+    flex-direction: column;
+}
